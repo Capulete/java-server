@@ -2,8 +2,6 @@ import java.io.*;
 import java.net.Socket;
 
 public class Client {
-    static BufferedReader reader;
-
     public static void main(String[] args) {
         String host = "localhost";
         int port = 8888;
